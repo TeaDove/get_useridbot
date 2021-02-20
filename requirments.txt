@@ -1,0 +1,17 @@
+Software:
+
+python 3+ 
+#Just python
+pip3 install -U pyrogram 
+#Wrapper for auto-account telegram api
+pip install -U aiogram
+#Wrapper for regular telegram bot
+#Warning, you should create not only bot, but telegram user accoun
+#Put your config data in config.ini file, it should look like this:
+[credentials]
+telegram-api = YOURTELEGRAMBOTTOKEN
+pyrogram_api_id = MTPROTOTELEGRAMAPIID
+pyrogram_api_hash = MTPROTOTELEGRAMAPIHASH
+[settings]
+owner_id = owner telegram id
+
